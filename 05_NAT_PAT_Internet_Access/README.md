@@ -57,6 +57,7 @@ Verification sur R-EDGE montrant que les sous-interfaces LAN et l'interface WAN 
 
 ### Table de Translation NAT
 La commande show ip nat translations confirme que l'adresse source privee (192.168.10.1) est bien traduite en adresse publique (203.0.113.1) lors de l'envoi du paquet vers l'exterieur.
+
 ![NAT Table](./img/Success_NAT_Table.png)
 
 ### Connectivite WAN (Ping 8.8.8.8)
